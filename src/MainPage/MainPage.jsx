@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { withTranslation, i18n } from '../../i18n';
 import style from './main.module.css'
-import Link from 'next/link';
 import { BiMessageSquareDots } from 'react-icons/bi'
 import { IoStatsChart, IoQrCode } from 'react-icons/io5'
 import { FaMobileAlt } from 'react-icons/fa'
