@@ -1,0 +1,275 @@
+{
+    "MainPage": "Main Page",
+    "Free":"Free",
+    "Pricing":"Pricing",
+    "header1":"Inloya Wallet",
+    "header2":"Redefine Your Loyalty Program with \n  Apple Wallet and Google Wallet.",
+    "headerButton":"Start using digital cards",
+    
+
+    "name":"Name Surname",
+    "cardType":"Any Card Type",
+    "cardknow":" I don`t know",
+    "business":"Business name",
+    "phone":"Phonenumber",
+    "contact":"Contacts Us",
+    "add here":"Add here...",
+    "empty-fields":"Please fill all the fields above",
+    "succesfull":"Your request has been sent!",
+    "send-request":"Send Request",
+    
+    "featurehead1":"Push notifications",
+    "feature1":"A great opportunity to inform your customers about new offers on their main phone screen",
+    "featurehead2":"Link and Qr",
+    "feature2":"Two modern ways to attract customers to a loyalty program",
+    "featurehead3":"Without app",
+    "feature3":"From now on, you will not need a mobile application to connect clients",
+    "featurehead4":"Statistics",
+    "feature4":"Detailed statistics about notifications sent, clients and more.",
+    
+    "Loyalty Card":"Loyalty Card",
+    "LoyaltyCard-text":"Turn first-time customers into your regular crowd.When it comes to developing a long-term relationship with customers, a little incentive can go a long way. With custom loyalty cards, you can reward repeat business with a special gift or discount – and your customers can keep your business name, logo and contact in their digital wallet.",
+    "LoyaltyCard-text2":"With this savvy promotional piece, everyone wins.",
+
+    "DigitalCard":"Digital Boarding Pass",
+    "DigitalCard-text":"Digital assistance cards brings comfort to policyholders, all information is easily accessible on a simple, understandable format of a digital card. The back holds SOS contacts, assistance services, customer care channels, shortcuts to claim process, important documents, procedures or FAQ. ",
+    "DigitalCard-text2":"The barcode used on the mobile boarding pass is identical to the barcode on the paper boarding pass and can generally be used wherever the paper version is accepted.",
+
+    "Assistance Card":"Assistance Card",
+    "AssistanceCard-text":"Digital assistance cards brings comfort to policyholders, all information is easily accessible on a simple, understandable format of a digital card. The back holds SOS contacts, assistance services, customer care channels, shortcuts to claim process, important documents, procedures or FAQ.",
+    "AssistanceCard-text2":"Combining insurance products with advanced API connections, such as meteorological services, can raise them to the next level - clients with home insurance receive severe weather alerts. This can result in: less material damage, lower claims, satisfied customers.",
+
+    "Voucher":"Voucher",
+    "Voucher-text":"A voucher is a certificate or document that either allows you to purchase something or proves that you paid for something. A voucher is sometimes valuable.Vouchers represent a great acquisition tool or a sales opportunity. With their file size of a few kilobytes, digital vouchers are easily downloadable anywhere - while browsing shelves in a store, waiting in line at the checkout, or rushing to an airport gate.",
+    "Voucher-text2":"And what's more, digital vouchers never die - they are easily convertible to another offer, to a loyalty onboarding card, a customer satisfaction survey or a reminder about your mobile app. Going digital saves costs, the planet, and time for production and distribution.",
+
+    "Event Ticket":"Event Ticket",
+    "EventTicket-text":"Printing tickets can be a hassle. Not everyone — especially the younger crowd — has a printer at home, which can make printing physical tickets challenging. Digital ticketing trends eliminate this. Digital tickets aren’t just more convenient for your attendees. They also help you cut down on costs, too. Consider the time and expenses associated with mailing physical tickets to every event-goer. You have to spend money to print the tickets themselves. Then, postage and envelopes cost extra. Beyond that, sending tickets requires your event staff to manually package and mail each ticket, which can be a time-consuming and labor-intensive process.",
+    "EventTicket-text2":"A used ticket can dynamically change into a new card. This could be a membership card, a discount voucher for the next event, a voucher at your partners. The ticket can dynamically change to fit your requirements.",
+
+    "Stamp Card":"Stamp Card",
+    "StampCard-text":"Add the Loyalty Card feature to enable users to collect stamps each time they make a purchase. Once they complete the card, they earn a freebie. Here's how it works. When a customer makes a purchase at your business, they open your app's Loyalty Card feature on their phone. They hand their phone to the cashier who enters a code to stamp their card. After they get enough stamps, they earn a reward.",
+    "StampCard-text2":"Stamp cards can be personalized or anonymous, and can be easily distributed via a QR code displayed in the shop or restaurant.",
+
+    "Guest Card":"Guest Card",
+    "GuestCard-text":"Digital guest cards perfectly complement outstanding services and boost customer experience. Equipped with NFC technology it safely opens and locks doors but also displays loyalty points, provides information on hotel purchases, check-in and check-out times, informs about hotel entertainment facilities as well as leisure activities in the surrounding area and discounts at hotel partners. It notifies guests in the right time and - by means of beacon technology, at the right place.",
+    "GuestCard-text2":"And once the adventure ends, sending a satisfaction survey onto lock screen will achieve higher response rate compared to regular e-mails.",
+
+    "Business Card":"Business Card",
+    "BusinessCard-text":"A digital business card, also known as an electronic or virtual business card, is a way to share and save contact information in real-time quickly. They are customized with your unique information and can be as detailed or general as you wish. Digital business cards are the best way to move your brand forward. In this digital era, your virtual business card will enhance your networking interactions and demonstrate that you are willing to adapt to changing times. ",
+    "BusinessCard-text2":"The QR code contains a vCard which automatically redirects to a pre-filled contact card with your information - just tap and save it. From colors to logo, cards are fully customizable to match your corporate identity.",
+    
+    "Employee ID Card":"Employee ID Card",
+    "EmployeeCard-text":"Digital employee ID cards can help business administrators to simplify the process of issuing and managing digital ID cards.Contractors, guests, interns, and seasonal workers can receive a temporary mobile ID card that can expire automatically,  and it’ll be instantly revoked or renewed.You can issue custom-made digital ID cards by personalizing the background colors, adding the business’ logo, setting custom fields, and choosing a preferred barcode type.",
+    "EmployeeCard-text2":"Also, this feature allows administrators to be more organized within the company, by creating a template with specific colors for each department.",
+
+    "Loyalty":"Loyalty",
+    "MarketingAutomation":"Marketing Automation",
+    "BusinessDictionary":"Business Dictionary",
+    "FeedBack":"FeedBack",
+    "howitworks":"How it Works",
+    "faq":"FAQ",
+    "whatyouget":"What You Get",
+    "termsofuse":"Terms of Use",
+    "press":"Press",
+    "Digital Wallet":"Wallet",
+    "Contact":"Contact",
+    "Address":"Address",
+    "estimated-price":"Total Cost",
+    "setup-price":"Setup Fee",
+    "Buy Now":"Buy Now",
+
+
+
+    "choose-your-plan":"Choose your plan",
+    "Month":"Month",
+    "Year":"Year",
+    "Full-functionality":"Full-functionality with Your additional settings and wishes",
+
+    "Pricing0":"Begin",
+    "Pricing1":"Smart",
+    "Pricing2":"Pro",
+    "Pricing3":"Enterprise",
+    "Start" :"Start",
+    "Select":"Select",
+    "Total":"Total",
+    "Negotiable":"Negotiable",
+    "See all features":"See all features",
+    "Clients":"Clients",
+    "Promotions":"Promotions",
+    "Reports":"Reports",
+    "priceType":"По соглашению",
+
+
+    "Up to  loyalty cards":"Up to  loyalty cards.",
+    "Google Pay and Apple Wallet":"Google Pay and Apple Wallet.",
+    "Inloya POS":"Inloya POS.",
+    "Online form for collecting customer base":"Online form for collecting customer base.",
+    "InLink and QR code":"InLink and QR code.",
+    "Limited Push notifications":" Limited Push notifications.",
+    "Up to 1000 loyalty cards":"Up to 1000 loyalty cards.",
+    "Online form custom design":"Online form custom design.",
+    "Loyalty card custom design":"Loyalty card custom design.",
+    "Integration with popular CRM/POS":"Integration with popular CRM/POS.",
+    "Unlimited Push notifications":"Unlimited Push notifications.",
+    "Statistics":"Statistics.",
+    "Up to 5000 loyalty cards":"Up to 5000 loyalty cards.",
+    "Campaign":"Campaign.",
+    "Unlimited cards":"Unlimited cards.",
+    "Marketing":"Marketing",
+    "Feedback":"Feedback",
+    "Location Push Notifications for iOS":"Location Push Notifications for iOS.",
+    "Each additional card 0,08 AZN":"Each additional card 0,08 AZN",
+
+    "Features":"Features",
+    "features1-title":"Send personalized messages your clients want to get",
+    "features1-text":"Send notifications about your promos to selected segments. Clients can be segmented: by frequency of purchases, bonus balance, last visit date and other indicators. ",
+   
+    "features2-title":"We will create an effective communication channel and increase your sales by 2 times!",
+   
+    "features3-title":"IT’S TECHNOLOGICAL",
+    "features3-text":"We integrate electronic cards into your loyalty program!",
+
+      
+    "features4-title":"ENVIRONMENTALLY FRIENDLY",
+    "features4-text":"Reject plastic cards in favor of electronic cards in Apple (Android) Wallet",
+
+    "features5-title":"IT’S COMFORTABLE",
+    "features5-text":"Now the cards will never be lost and the client will always receive your message",
+
+    
+    "features6-title":"New push notification channel",
+    "features6-text":"Update your wallet pass content and send push notifications – personalized, automated and location based – directly on the lockscreen of your customers and prospects’ smartphones.",
+    
+    "all-features":"All Feature",
+    "text1-1":"Return part of the purchase price to your regular customers",
+    "text1-2":"Give a discount to your regular customers",
+    "text1-3":"Your regular customers will receive bonuses for each purchase",
+    "text1-4":"Provide your regular customers with subscriptions for exclusive prices",
+    "text1-5":"Return the percentage of the purchase to the customer’s account, which will increase according to the the amount they have spent",
+    "text1-6":"Provide a discount that will increase depending on the amount spent",
+    "text1-7":"Give bonuses to your regular customers, where the accrual method will vary depending on the accumulated amount",
+    "text1-8":"Create and attach loyalty cards",
+    "text1-9":"Perform transactions on loyal cards (accrual / write-off)",
+    "text1-10":"Create customer groups for their segmentation",
+
+    "text2-1":"Maximum allowed number of clients which can be added to the database",
+    "text2-2":"If you have faced with any problem in case of controlling the site, our manager would help you.",
+    "text2-3":"Add customers to the database, indicating the key personal information",
+    "text2-4":"Upload the ready Excell file with the list of clients",
+    "text2-5":"View, edit and delete customer list",
+    "text2-6":"Send text notifications about important events in your company",
+    "text2-7":"Create separate customer groups for convenience segmentation",
+   
+    "text3-1":"Create promotions and reward your customers",
+    "text3-2":"Notify your customers by SMS mailing",
+    "text3-3":"Company name, that will be used in SMS sending. Activations take 2-3 days",
+    "text3-4":"A tool that automatically selects each customer's name when sending promotions, notifications, birthday greetings and etc.",
+    "text3-5":"The features that allow to make a post on the organization's Facebook page directly through the InLoya platform. It helps to get additional information about clients in social media",
+    "text3-6":"You can post a photo of your promotion on Instagram page through InLoya platform. It helps to get additional information about your clients in social media",
+    "text3-7":"Notify customers about the promotions by sending emails",
+    "text3-8":"Specify launch dates and promotions, and the platform will automatically launch a promotion instead of you",
+    "text3-9":"The opportunity to reuse the promotion",
+    "text3-10":"Send automatic notifications on important client dates or holidays",
+    "text3-11":"Discounts on grouped specific goods / services",
+    "text3-12":"Customer incentives after purchasing a product/service a certain number of times",
+    "text3-13":"Create separate customer groups for convenience segmentation",
+    "text3-14":"Monitor the status of created discounts, analyze, increase reach, adjust settings",
+    "text3-15":"The ability to search for promotional code",
+    "text3-16":"Create promo and save them in templates to speed up your work in the future",
+
+    "text4-1":"Automate to send happy birthday greetings to customers to encourage them to purchase.",
+    "text4-2":"Reward the customer for all completed fields while registration",
+    "text4-3":"Send automatically a special offer to those who have not used your promotions for 30 days",
+    "text4-4":"A tool that automatically selects each customer's name when sending promotions, notifications, birthday greetings and etc.",
+    "text4-5":"Restore contact with lost customers who have not made a purchase for a long time",
+    "text4-6":"Motivate your most loyal customers to spend even more by rewarding them automatically",
+    "text4-7":"Ask your customers to direct their friends",
+    "text4-8":"The platform will automatically reward new customers who subscribed to your updates through the mobile application",
+
+    "text5-1":"Statistics on the response to the actions, the schedule of gender and age of customers, statistics on loyal cards, etc.",
+    "text5-2":"Monitor detailed analysis of the work done (report about transactions, used promotional codes, discounts and etc.)",
+
+    "text6-1":"Adding Feedback through text comments",
+    "text6-2":"Adding Feedback by attaching an image",
+    "text6-3":"Adding Feedback by attaching a video file",
+    "text6-4":"Adding Feedback by attaching an audio file",
+    "text6-5":"An opportunity to add different types of questions for clients (with one answer, several answers, open answer)",
+    "text6-6":"Receiving and monitoring all provided information by your clients",
+
+    "CashBack":"CashBack",
+    "Discount":"Discount",
+    "Bonus":"Bonus",
+    "Membership":"Membership",
+    "Cashback Cumulative":"Cashback Cumulative",
+    "Discount Cumulative":"Discount Cumulative",
+    "Bonus Cumulative":"Bonus Cumulative",
+    "The generation of loyalty cards":"The generation of loyalty cards",
+    "Transactions":"Transactions",
+    "Create Groups":"Create Groups",
+
+  
+    "The Number of Customers":"The Number of Customers",
+    "Personal Success Manager":"Personal Success Manager",
+    "Client file":"Client file",
+    "Upload customer list":"Upload customer list",
+    "Clients Base List":"Clients Base List",
+    "Sending notifications":"Sending notifications",
+    "Customer Groups":"Customer Groups",
+
+    "Creating and launching promotions":"Creating and launching promotions",
+    "SMS mailings":"SMS mailings",
+    "Sendername":"Sendername",
+    "Label":"Label",
+    "Facebook Post":"Facebook Post",
+    "Instagram Post":"Instagram Post",
+    "Email Newsletter":"Email Newsletter",
+    "Autopilot":"Autopilot",
+    "Cyclicity":"Cyclicity",
+    "Newsletter without action":"Newsletter without action",
+    "Coupon Promotion":"Coupon Promotion",
+    "Voucher Promotion":"Voucher Promotion",
+    "Discount Promotion":"Discount Promotion",
+    "Status of created promotions":"Status of created promotions",
+    "Search for promotional codes":"Search for promotional codes",
+    "Templates":"Templates",
+
+    "Birthdays":"Birthdays",
+    "Welcome Bonus":"Welcome Bonus",
+    "Completed Fields":"Completed Fields",
+    "30 days of silence":"30 days of silence",
+    "Lost customers":"Lost customers",
+    "Most loyal customers":"Most loyal customers",
+    "Friends of my clients":"Friends of my clients",
+    "New customers from the mobile application":"New customers from the mobile application",
+
+    "Detailed analysis":"Detailed analysis",
+
+    "Text":"Text",
+    "Photo":"Photo",
+    "Video":"Video",
+    "Audio":"Audio",
+    "Adding questions":"Adding questions",
+    "Source":"Source"
+
+
+ 
+
+
+
+
+    
+
+
+    
+
+
+
+
+  
+
+    
+   
+
+      
+}

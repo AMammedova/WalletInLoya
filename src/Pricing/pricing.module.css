@@ -1,0 +1,443 @@
+.MainContainer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+  background-image: url("/images/Vector1.png");
+}
+.PricingContainer > div:nth-child(1) {
+  border-top: 10px solid #abbdd0;
+}
+
+.PricingContainer > div:nth-child(2),
+.PricingContainer > div:nth-child(3) {
+  border-top: 10px solid #2683de;
+}
+
+.PricingContainer > div:nth-child(3) {
+  border-top: 10px solid #edb500;
+}
+
+.PricingContainer {
+  width: 1100px;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px auto;
+  align-items: center;
+}
+
+.MainContainer h1 {
+  color: var(--primary-color);
+}
+
+.MainContainer h5 {
+  margin: 0;
+  font-weight: 500 !important;
+  color: var(--dark-primary-color);
+}
+
+.switch {
+  margin: 10px 0;
+  margin-right: 20px;
+  position: relative;
+  left: 10px;
+  display: inline-block;
+  width: 48px;
+  height: 22px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.SelectedCheck {
+  display: flex;
+  margin-top: 30px;
+}
+.SelectedCheck label {
+  cursor: pointer;
+}
+.CheckItem {
+  margin-right: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #2683de;
+}
+.CheckItem input {
+  margin-right: 10px;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #61a9f1;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.MarketingContainer .slider {
+  background: #fff;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 10px;
+  width: 10px;
+  left: 5px;
+  bottom: 6px;
+  background-color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.MarketingContainer .slider:before {
+  background: #61a9f1;
+}
+
+input:checked + .slider {
+  background-color: var(--primary-color);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2683de;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(28px);
+  -ms-transform: translateX(28px);
+  transform: translateX(28px);
+}
+
+/* Rounded sliders */
+.slider {
+  border-radius: 34px;
+}
+
+.slider:before {
+  border-radius: 50%;
+}
+
+.change {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 145%;
+  color: #ffffff;
+  left: 60%;
+  position: absolute;
+  top: 63%;
+}
+
+.MarketingContainer {
+  display: flex;
+  align-items: center;
+  width: 1024px;
+  display: flex;
+  margin: 20px auto;
+}
+
+.MarketingContent {
+  flex-basis: 50%;
+  width: 100%;
+  height: 160px;
+  border-radius: 10px;
+  margin: 0px 20px;
+  background: #fff;
+  padding: 5px 25px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-size: cover;
+}
+
+.MarketingContainer > div:nth-child(1) {
+  background-image: url("/images/Frame2.png");
+}
+
+.MarketingContainer > div:nth-child(2) {
+  background-image: url("/images/Frame3.png");
+}
+
+.MarketingContent h1 {
+  color: #fff;
+}
+
+.Total {
+  border-radius: 15px;
+  width: 400px;
+  padding: 20px 35px;
+  height: 285px;
+  background: var(--primary-color);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.Setup{
+  border-radius: 15px;
+  width: 400px;
+  padding: 20px 35px;
+  height: 135px;
+  background: var(--primary-color);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.TotalPrice{
+  width: 810px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.Total h1 ,
+.Setup h1{
+  font-size: 23px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 10px auto;
+  color: #fff;
+}
+
+.Promocode {
+  display: flex;
+  justify-content: center;
+}
+
+.Promocode input {
+  color: var(--dark-primary-color);
+  flex-basis: 60%;
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border-radius: 5px 0px 0px 5px;
+  text-transform: uppercase;
+}
+.Promocode button {
+  flex-basis: 40%;
+  width: 100%;
+  font-weight: 600 !important;
+  background: #a1b1bb;
+  color: white;
+  padding: 10px 20px;
+  height: 50px;
+  border-radius: 0px 5px 5px 0px;
+  transition: 0.5s;
+  text-align: center;
+  margin-bottom: 10px;
+  transition: 0.8s;
+  text-transform: uppercase;
+}
+
+.ButtonContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ButtonContent button {
+  text-transform: uppercase;
+
+  font-weight: 600 !important;
+  width: 100%;
+  background: white;
+  color: var(--dark-primary-color);
+  padding: 10px 20px;
+  height: 50px;
+  border-radius: 5px;
+  transition: 0.5s;
+  text-align: center;
+  margin-bottom: 10px;
+  transition: 0.8s;
+}
+
+.ButtonContent button:hover {
+  color: white;
+  background: var(--dark-primary-color);
+}
+
+.FirstRow,
+.Row,
+.SubRow {
+  display: flex;
+  align-items: center;
+  padding: 15px 50px;
+}
+
+.Row,
+.SubRow {
+  box-shadow: rgba(99, 99, 99, 0.092) 0px 1px 1px 0px;
+}
+
+.FirstRow span,
+.Row span,
+.SubRow span {
+  width: 100%;
+  flex-basis: 10%;
+  text-align: center !important;
+  color: #464646;
+}
+
+.FirstRow span:nth-child(1),
+.Row span:nth-child(1),
+.SubRow span:nth-child(1) {
+  flex-basis: 50% !important;
+  text-align: left !important;
+}
+
+.FirstRow span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.FirstRow {
+  height: 80px;
+  background: #f5f8fa;
+}
+
+.Row span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #464646;
+}
+
+.SubRow span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #625e5e;
+}
+.SubRow {
+  animation: Openin 1.5s;
+}
+
+.DownChevron {
+  color: var(--dark-primary-color);
+  cursor: pointer;
+}
+
+.ModalMain {
+  height: 500px;
+  overflow-y: scroll;
+}
+
+.ModalMain::-webkit-scrollbar {
+  width: 5px;
+  background-color: #f5f5f5;
+}
+
+.ModalMain::-webkit-scrollbar-thumb {
+  width: 100%;
+  height: 10px;
+  border-radius: 10px;
+  background-image: linear-gradient(#2683de, #045299);
+}
+
+.Row > .SelectedChk {
+  color: #2bc444 !important;
+  font-size: 32px !important;
+}
+
+.Row > .UnselectedChk {
+  color: #6d9975 !important;
+  font-size: 32px !important;
+}
+
+.SubRow > .SelectedChk {
+  color: #2bc444 !important;
+  font-size: 25px !important;
+}
+
+.SubRow > .UnselectedChk {
+  color: #6d9975 !important;
+  font-size: 25px !important;
+}
+
+@keyframes Openin {
+  0% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .PricingContainer {
+    width: 90%;
+    flex-direction: column;
+  }
+  .MarketingContainer {
+    width: 95%;
+  }
+}
+
+@media all and (max-width: 900px) {
+  .PricingContainer > div {
+    width: 300px;
+  }
+
+  .Total {
+    width: 300px;
+  }
+  .Setup {
+    width: 300px;
+  }
+  .TotalPrice{
+    flex-direction: column;
+  }
+
+}
+@media all and (max-width: 500px) {
+  .MarketingContainer {
+    width: 90%;
+    flex-direction: column;
+  }
+  .MarketingContent {
+    margin: 10px auto;
+  }
+
+  .PricingContainer > div {
+    width: 250px;
+  }
+
+  .Total {
+    border-radius: 15px;
+    width: 250px;
+    margin: 20px auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background: #eff5f9e0;
+  }
+  .Setup {
+    border-radius: 15px;
+    width: 250px;
+    margin: 20px auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background: #eff5f9e0;
+  }
+  .TotalPrice{
+    flex-direction: column;
+  }
+
+  .FirstRow,
+  .Row,
+  .SubRow {
+    width: 100%;
+  }
+
+  .FirstRow span,
+  .Row span,
+  .SubRow span {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,165 @@
+.MainContainer {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 11111;
+  background: white;
+  height: 80px;
+  transition: 1.5s;
+}
+
+.MainContainerScroll {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 11111;
+  background: white;
+  height: 70px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.HeaderContent {
+  width: 80%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.LogoContainer {
+  flex-basis: 20%;
+  width: 100%;
+}
+
+.LogoContainer img {
+  width: 150px;
+  height: 80px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.MenuContainer {
+  flex-basis: 80%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+.MenuContainer a {
+  letter-spacing: 1px;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--dark-color);
+  transition: 0.5s;
+  margin-right: 20px;
+}
+
+.MenuContainer a:hover {
+  color: var(--primary-color);
+}
+
+.Languages {
+  width: 120px;
+  display: flex;
+}
+
+.Languages span:not(:last-child)::after {
+  content: "|";
+  padding: 0px 8px;
+  width: 2px;
+  font-size: 16px;
+  color: var(--primary-color);
+}
+
+.Languages span {
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.unselected {
+  color: var(--dark-color);
+}
+.selected {
+  color: var(--primary-color);
+}
+
+.button {
+  font-weight: 600 !important;
+  width: 250px;
+  background: var(--primary-color);
+  color: white !important;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: 0.5s;
+  text-align: center;
+}
+
+.button:hover {
+  color: white !important;
+}
+
+.MenuButton {
+  cursor: pointer;
+  font-size: 22px;
+  color: var(--primary-color);
+}
+
+@keyframes Openin {
+  0% {
+    transform: translateY(-80px);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@media all and (max-width: 940px) {
+  .LogoContainer img {
+    width: 100px;
+    height: 80px;
+    object-fit: contain;
+  }
+  .LogoContainer {
+    flex-basis: 40%;
+    width: 100%;
+  }
+
+  .MenuContainer {
+    display: none;
+  }
+
+  .MenuContainerOpen {
+    top: 80px;
+    left: 0;
+    padding: 20px 50px;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    animation: Openin 1.5s;
+  }
+  .MenuContent {
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .MenuContent a {
+    margin: 10px 0px;
+  }
+  .Languages {
+    margin: 0px auto;
+    width: 100%;
+    justify-content: center;
+  }
+  .button {
+    width: 100%;
+  }
+}

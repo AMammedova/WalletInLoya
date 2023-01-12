@@ -1,0 +1,26 @@
+.MainContainer {
+  background-image: linear-gradient(top, white 50%, #f0f0f0 60%);
+}
+.MainContainer img {
+  width: 250px;
+  height: 480px;
+  object-fit: contain;
+}
+
+@media all and (max-width: 1000px) {
+  .MainContainer img {
+    width: 200px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .MainContainer img {
+    width: 150px;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .MainContainer img {
+    width: 120px;
+  }
+}

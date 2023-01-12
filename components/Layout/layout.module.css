@@ -1,0 +1,11 @@
+.MainLayout {
+  min-height: 500px;
+  /* max-width: var(--layout-width); */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.MainLayoutContent {
+  width: 100%;
+}

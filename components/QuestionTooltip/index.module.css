@@ -1,0 +1,80 @@
+.tooltip {
+  display: inline;
+  width: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.toolTipIcon {
+  cursor: pointer;
+}
+.tooltip > .tooltiptext {
+  min-width: 150px;
+  min-height: 40px;
+  padding: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  position: absolute;
+  bottom: -19px;
+  left: 150%;
+  background: #a1b1bb;
+  border-radius: 10px;
+  animation: hiddenBox 0.5s;
+  z-index: 9999;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  animation: visibilityBox 0.5s;
+}
+
+.arrow {
+  position: absolute;
+  overflow: hidden;
+}
+.arrow:after {
+  content: "";
+  background: #a1b1bb;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  transform-origin: 0 0;
+}
+.arrowBottom {
+  width: 13px;
+  height: 26px;
+  top: 50%;
+  left: -8px;
+  margin-top: -13px;
+}
+.arrowBottom:after {
+  left: 0;
+  top: 13px;
+  transform: rotate(-45deg);
+}
+@keyframes visibilityBox {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+@keyframes hiddenBox {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}

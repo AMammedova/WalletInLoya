@@ -1,0 +1,230 @@
+.MainContainer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+  background-image: url("/images/Vector1.png");
+}
+
+.PricingContainer {
+  width: 1100px;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px auto;
+  align-items: center;
+}
+
+.Container h1 {
+  margin: 0;
+  font-size: 22px;
+  color: var(--primary-color);
+  text-align: right;
+}
+
+.Container h2 {
+  margin: 10px 0px;
+  text-align: right;
+  color: #61c071;
+  font-weight: 600;
+  font-size: 18px;
+}
+.Container h2:nth-child(3){
+  font-size: 13px;
+  color: rgb(124, 122, 122);
+}
+.Container {
+  width: 250px;
+  display: flex;
+  margin: 15px auto;
+  flex-direction: column;
+  border-radius: 15px;
+  padding: 15px 15px;
+  position: relative;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  height: 750px;
+  background: white;
+  transition: 0.8s;
+}
+
+.Container:hover {
+  box-shadow: var(--primary-color) 0px 2px 5px 0px;
+}
+
+.switchContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.switch {
+  margin: 10px 0;
+  margin-right: 20px;
+  position: relative;
+  left: 10px;
+  display: inline-block;
+  width: 48px;
+  height: 22px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.SelectedCheck {
+  display: flex;
+  margin-top: 30px;
+}
+.SelectedCheck label {
+  cursor: pointer;
+}
+.CheckItem {
+  margin-right: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #2683de;
+}
+.CheckItem input {
+  margin-right: 10px;
+}
+
+/* .switchContainer {
+  display: flex;
+} */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #86b8ea;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 10px;
+  width: 10px;
+  left: 5px;
+  bottom: 6px;
+  background-color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: var(--primary-color);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2683de;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(28px);
+  -ms-transform: translateX(28px);
+  transform: translateX(28px);
+}
+
+/* Rounded sliders */
+.slider {
+  border-radius: 34px;
+}
+
+.slider:before {
+  border-radius: 50%;
+}
+
+.change {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 145%;
+  color: #ffffff;
+  left: 60%;
+  position: absolute;
+  top: 63%;
+}
+
+.Title {
+  height: 110px;
+}
+.Row {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0px;
+}
+
+.Row span:nth-child(1) {
+  flex-basis: 10%;
+  color: var(--primary-color);
+  font-size: 14px;
+}
+
+.Row span:nth-child(2) {
+  flex-basis: 90%;
+  font-size: 14px;
+}
+.Row .Last:last-child {
+  color: greenyellow;
+}
+.Price {
+  align-items: center;
+  color: white;
+  height: 70px;
+  width: 100px;
+  top: 0;
+  flex-direction: column;
+  display: flex;
+  right: 0;
+  font-size: 12px;
+  background-color: var(--primary-color);
+  border-radius: 30% 70% 0 100%/0 0 100% 100%;
+}
+.Content {
+  height: 460px;
+  }
+.ButtonContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ButtonContent button {
+  font-weight: 600 !important;
+  width: 96%;
+  background: var(--primary-color);
+  color: white !important;
+  padding: 10px 20px;
+  height:44px;
+  border-radius: 5px;
+  transition: 0.5s;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 36px;
+}
+
+.ButtonContent button:hover {
+  color: white !important;
+  background: var(--dark-primary-color);
+}
+
+@media all and (max-width: 1000px) {
+  .PricingContainer {
+    width: 90%;
+    flex-direction: column;
+  }
+}
